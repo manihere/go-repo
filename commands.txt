@@ -1,0 +1,2 @@
+go version
+go mod init example.com/hello
