@@ -19,5 +19,5 @@ func main() {
 	fmt.Println("Array 1 is now: ", Array1, "\n")
 	fmt.Println(Array4)
 	fmt.Println(Array5)
-
+	fmt.Println(len(Array5))
 }
