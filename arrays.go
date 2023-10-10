@@ -20,4 +20,9 @@ func main() {
 	fmt.Println(Array4)
 	fmt.Println(Array5)
 	fmt.Println(len(Array5))
+
+	//SLICE is similar to arrays but are powerful
+	//slice can also be used to select a part of array
+	slice1 := []int{1, 2, 3} //slice like an array
+	fmt.Println(slice1)
 }
