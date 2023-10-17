@@ -35,12 +35,12 @@ func main() {
 	var c = make(map[string]int)
 	c["India"] = +91
 	c["Pin"] = 110096
-	c["Population"] = "1.5B"
+	c["Population in billion"] = 1
 
 	fmt.Println("Facts about India \n %v", c)
 
 	var em = make(map[string]string) //empty map
 
-	fmt.Printf(em == nil) //check if em is nil
-	fmt.Printf(a == nil)  //check if a is nil
+	fmt.Println("em is", em)
+
 }
