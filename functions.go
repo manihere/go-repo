@@ -26,10 +26,18 @@ func multiReturn(a int, y string) (total int, txt string) { //return multiple va
 func main() {
 	hello()
 	hello()
+
 	param("Manish", 30)
 	param("Panwar", 15)
+
 	fmt.Println("a+b=", returnoutput(2, 3))
+
 	total := returnoutput(5, 5) //storing return value in var
 	fmt.Println("Total of 5+ 5 =", total)
+
 	fmt.Println(multiReturn(5, "Manish"))
+
+	a, b := multiReturn(10, "Manish") //storing return values in var
+	fmt.Println(a, b)
+
 }
