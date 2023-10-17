@@ -25,3 +25,10 @@ func main(){
 	pers1.salary = 15
 	pers1.organization = "ABCD"
 }
+
+func PrintPerson(p string){
+	fmt.Println(p.name)
+	fmt.Println(p.age)
+	fmt.Println(p.salary)
+	fmt.Println(p.organization)
+}
