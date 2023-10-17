@@ -41,6 +41,8 @@ func main() {
 
 	var em = make(map[string]string) //empty map
 
-	fmt.Printf(em == nil) //check if em is nil
-	fmt.Printf(a == nil) //check if a is nil
+	fmt.Println(c[India])// print particular value
+	c["Pin"] = 110092 //modifying particular value
+	fmt.Println(c[Pin])// print particular value
+
 }
