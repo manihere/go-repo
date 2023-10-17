@@ -41,6 +41,8 @@ func main() {
 
 	var em = make(map[string]string) //empty map
 
-	fmt.Println("em is", em)
+	fmt.Println(c[India]) // print particular value
+	c["Pin"] = 110092     //modifying particular value
+	fmt.Println(c[Pin])   // print particular value
 
 }
