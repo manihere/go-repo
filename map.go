@@ -31,6 +31,10 @@ func main() {
 	fmt.Println("Person2", Person2)
 	fmt.Println(Person2)
 
+	//delete particular value
+	delete(Person2, "lastName")
+	fmt.Println(Person2)
+
 	//create map using make()
 	var c = make(map[string]int)
 	c["India"] = +91
@@ -40,9 +44,11 @@ func main() {
 	fmt.Println("Facts about India \n %v", c)
 
 	var em = make(map[string]string) //empty map
+	fmt.Println(em)
 
-	fmt.Println(c[India]) // print particular value
-	c["Pin"] = 110092     //modifying particular value
-	fmt.Println(c[Pin])   // print particular value
+	fmt.Println(c["India"]) // print particular value
+	c["Pin"] = 110092       //modifying particular value
+
+	fmt.Println(c["Pin"])
 
 }
