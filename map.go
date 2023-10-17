@@ -14,18 +14,21 @@ Go has multiple ways for creating maps.*/
 
 package main
 
-import("fmt")
+import (
+	"fmt"
+)
 
-func main(){
+func main() {
 
 	//var a = map[keyType]valueType{key1:value1, key2:value2.....}
 
-	var person1 = map[string]int{"Age1": 20, "Salary": 30, "Experience": 10 }
+	var person1 = map[string]int{"Age1": 20, "Salary": 30, "Experience": 10}
 
-	fmt.Println(person1)
+	fmt.Println("Person1 ", person1)
 
-	var Person2 = map[String]string{"Name": "Manish", "Org": "ABC", "lastName": "Panwar"}
+	var Person2 = map[string]string{"Name": "Manish", "Org": "ABC", "lastName": "Panwar"}
 
+	fmt.Println("Person2", Person2)
 	fmt.Println(Person2)
 
 	//create map using make()

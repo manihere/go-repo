@@ -1,23 +1,23 @@
-//struct is like array, but can keep values of different data types
+// struct is like array, but can keep values of different data types
 package main
 
 import (
 	"fmt"
 )
 
-type Person struct{
-	name string
-	age int
-	salary int
-	organization
+type Person struct {
+	name         string
+	age          int
+	salary       int
+	organization string
 }
 
-func main(){
+func main() {
 	var pers1 Person
 	var pers2 Person
 
 	pers1.name = "Manish"
-	pers1. age = 30
+	pers1.age = 30
 	pers1.salary = 10
 	pers1.organization = "ABC"
 
