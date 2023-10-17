@@ -27,4 +27,12 @@ func main(){
 	var Person2 = map[String]string{"Name": "Manish", "Org": "ABC", "lastName": "Panwar"}
 
 	fmt.Println(Person2)
+
+	//create map using make()
+	var c = make(map[string]int)
+	c["India"] = +91
+	c["Pin"] = 110096
+	c["Population"] = "1.5B"
+	
+	fmt.Println("Facts about India \n %v",c)
 }
