@@ -38,4 +38,9 @@ func main() {
 	c["Population"] = "1.5B"
 	
 	fmt.Println("Facts about India \n %v",c)
+
+	var em = make(map[string]string) //empty map
+
+	fmt.Printf(em == nil) //check if em is nil
+	fmt.Printf(a == nil) //check if a is nil
 }
