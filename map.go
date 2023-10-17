@@ -35,15 +35,15 @@ func main() {
 	var c = make(map[string]int)
 	c["India"] = +91
 	c["Pin"] = 110096
-	c["Population"] = "1.5B"
-	
-	fmt.Println("Facts about India \n %v",c)
+	c["Population in billion"] = 1
+
+	fmt.Println("Facts about India \n %v", c)
 
 	var em = make(map[string]string) //empty map
 
-	fmt.Println(c[India])// print particular value
-	c["Pin"] = 110092 //modifying particular value
-	fmt.Println(c[Pin])// print particular value
+	fmt.Println(c[India]) // print particular value
+	c["Pin"] = 110092     //modifying particular value
+	fmt.Println(c[Pin])   // print particular value
 
 	//check if key/value exists
 	var d = map(string)int{"one":1, "two":2, "three":3}
