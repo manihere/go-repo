@@ -52,6 +52,16 @@ func main() {
 	fmt.Println(c["Pin"])
 
 	//check if key/value exists
-	var d = map(string)int{"one":1, "two":2, "three":3}
-	val1, ok1 := d["three"]
+	var d = map[string]int{"one": 1, "two": 2, "three": 3}
+	val1, ok1 := d["four"] //ok1 will be false since val1 does not find four in the map
+	fmt.Println(val1, ok1)
+	val2, ok2 := d["three"] //will be true
+	fmt.Println(val2, ok2)
+	_, ok3 := d["two"] //check if key exists but value is not needed to be stored
+	fmt.Println(ok3)
+
+	e := d //e refers to d, so if we change value in d, value will change in e as well
+	fmt.Println(e)
+	d["two"] = 22 // changing d, but printing e
+	fmt.Println(e)
 }
