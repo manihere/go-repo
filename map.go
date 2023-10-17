@@ -51,4 +51,7 @@ func main() {
 
 	fmt.Println(c["Pin"])
 
+	//check if key/value exists
+	var d = map(string)int{"one":1, "two":2, "three":3}
+	val1, ok1 := d["three"]
 }
