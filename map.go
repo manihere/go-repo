@@ -35,7 +35,7 @@ func main() {
 	var c = make(map[string]int)
 	c["India"] = +91
 	c["Pin"] = 110096
-	c["Population"] = "1.5B"
-	
-	fmt.Println("Facts about India \n %v",c)
+	c["Population in Billion"] = 1
+
+	fmt.Printf("Facts about India \n %v", c)
 }
